@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.file-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.file-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.file-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
